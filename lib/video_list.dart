@@ -65,12 +65,6 @@ class _VideoListState extends State<VideoList> {
           );
         },
       ),
-      Align(
-        alignment: Alignment.center,
-        child: Container(
-          height: 1.0,
-          color: Colors.redAccent,
-        ),
       )
     ]);
   }
