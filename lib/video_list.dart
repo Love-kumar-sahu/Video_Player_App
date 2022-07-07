@@ -33,7 +33,6 @@ class _VideoListState extends State<VideoList> {
     return Stack(fit: StackFit.expand, children: <Widget>[
       InViewNotifierList(
         scrollDirection: Axis.vertical,
-        initialInViewIds: ['0'],
         isInViewPortCondition:
             (double deltaTop, double deltaBottom, double viewPortDimension) {
           return deltaTop < (0.5 * viewPortDimension) &&
